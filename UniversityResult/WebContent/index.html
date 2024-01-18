@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Result</title>
+<script type="text/javascript">
+function callservlet(){
+	if (document.Sppuresult.txtPRN.value=="")
+		{
+		  alert("Please Enter the PRN");
+		  return false;
+		}
+	
+		}
+	
+</script>
+</head>
+<body>
+<h1>~SPPU End Semister Result~</h1>
+<form action="loginservlet" method="post" name="Sppuresult" onclick="returncallservlet()">
+<table>
+<tr>
+<td>Enter your PRN</td>
+<td><input type="text" name="txtPRN"></td>
+</tr>
+<tr>
+<td><input type ="submit"  value="submit" ></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
